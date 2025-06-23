@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 15px;
+    padding-right: 5px;
+    width: 80%;
+    height : 300px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 5px;
+    justify-content: end;
+}
+
+.item {
+    border-radius : 12px;
+}
+
+.item-1 {
+    grid-row : span 3;
+    background-color: red;
+    width: 100%;
+}
+
+.item-2 {
+    grid-column : span 2 / span 2;
+    grid-row : span 2 / span 3;
+    background-color: blue;
+    width: 100%;
+}
+.item-3 {
+    grid-column : span 2 / span 2;
+    background-color:green;
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-800">
+    <div id="card-container" class="w-9/10 h-70 md:h-44 m-10 rounded-lg border border-gray-400 grid grid-rows-[2fr_1fr_1fr_1fr] grid-cols-1 md:grid-rows-[2fr_1fr] md:grid-cols-3 overflow-hidden">
+        <div class="border-b border-gray-400 col-span-3 flex justify-between items-center bg-white">
+            <div class="flex items-center">
+                <div class="ml-5">
+                    <img class="w-18 rounded-full" src="../images/profile.jpg" alt="">
+                </div>
+                <div class="ml-5">
+                    <h4 class="text-gray-600">Welcome back,</h4>
+                    <h2 class="text-2xl font-bold">Muhammad Saif</h2>
+                    <h4 class="text-gray-600">Product Designer</h4>
+                </div>
+            </div>
+            <div class="mr-5">
+                <button class="border border-gray-400 rounded-sm p-2 hover:bg-gray-100">View profile</button>
+            </div>
+        </div>
+        <div class="border-r border-gray-400 row-start-2 flex justify-center items-center bg-gray-100">
+            <h4>12</h4>
+            <h4 class="ml-1 text-gray-600">Vacation days left</h4>
+        </div>
+        <div class="border-r border-gray-400 row-start-3 md:row-start-2 flex justify-center items-center bg-gray-100">
+            <h4>4</h4>
+            <h4 class="ml-1 text-gray-600" >Sick days left</h4>    
+        </div>
+        <div class="border-gray-400 row-start-4 md:row-start-2 flex justify-center items-center bg-gray-100">
+            <h4>2</h4>
+            <h4 class="ml-1 text-gray-600" >Personal days left</h4>
+        </div>
+    </div>
+</body>
+</html>
